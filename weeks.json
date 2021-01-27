@@ -1,0 +1,12 @@
+[
+    {"message":"oi"},
+    {"theme":{"Title":"Schöne Ferientage","text":"Was man in den Ferien alles machen kann: wandern, wenn das Wetter schön ist; baden und schwimmen, wenn es heiß ist; basteln, zeichnen und lesen, wenn es regnet; mit andern Kindern spielen und fröhlich sein. Die Ferienzeit ist eine Zeit der Erholung und Entspannung."},
+    "first":{"assignment":"Schreib nachstehende Schilderung ab!","text":"Die Sonne sinkt immer tiefer und verschwindet endlich ganz. Alles geht zur Ruhe. Der Hirt zieht mit seiner Herde heim, die Vögel suchen ihre Nester auf, und das Wild des Waldes schlüpft in seine Höhlen oder in das schützende Dickicht. Käfer und Schmetterlinge suchen in Blumenkelchen oder unter Blättern ihre Ruhestätte, und auch die Menschen kehren von der Arbeit heim, um auszuruhen.","author":"Nach Kellner","question":"Verbesse nun deine Arbeit! Vergleiche Wort für Wort! Wie viele Fehler hast du gefunden?"},
+    "second":{"assignment":"Suche aus der 1. Übung alle Wörter, die mit einem Doppelmitlaut geschrieben sind, und bilde mit ihnen kurze Sätse!","beispiel":"Die Sonne geht unter."},
+    "third":{"assignment":"Bilde mit nachstehenden Wörtern zusammengesetzte Hauptwörter und schreib mit diesen sinnvolle Wortgruppen!","list":["Ferien","Tag","Wetter","Lage","Sonne","Schein","Regen","Tag","Spiel","Platz","Sonntag","Ruhe","Blume","Kelch", "Ruhe","Stätte","Wald","Tier"],"beispiel":"ein schöner Ferientag, die heutige Wetterlage"},
+    "fourth":{"assignment":"Suche zu jedem der nachstehenden Eigenschaftwörter ein passendes Haupt-wort und schreib diese Wortgruppen in dein Übungsheft!","list":["regnerisch","heiter","wolkenlos","bedeckt","heiß","fröhlich","lustig","tief","sicher","unsicher","dick","rund","echt","still"],"beispiel":"regnerisches Wetter, ein heiterer Tag"},
+    "fifth":{"assignment":"Gebrauche nachstehende Zeitwörter hauptwörtlich und bilde mit ihnen kurze Sätze!","list":["wandern","baden","schwimmen","basteln","zeichnen","lesen","spielen"],"beispiel":"Das Wandern ist des Müllers Lust"}
+    },
+    {"message":"tchau"}
+  ]
+

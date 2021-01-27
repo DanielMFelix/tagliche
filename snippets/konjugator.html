@@ -1,0 +1,32 @@
+
+
+    <div id="konjugator">
+    <div 
+        data-verbix-conjugate-language="deu" 
+        data-verbix-conjugate-key="ab8e7bb5-9ac6-11e7-ab6a-00089be4dcbc"
+        data-verbix-conjugate-noresultfortensetext="No result for this tense"
+    >
+        <input id="verb" type="text" placeholder="Enter verb" value="sein" onkeydown="verbix.conjugate(document.getElementById('verb').value);">
+        <input id="press" type="button" value="Go" onclick="verbix.conjugate(document.getElementById('verb').value);">
+    </div>
+        <span onclick="verbix.conjugate('sein');">sein</span> |
+        <span onclick="verbix.conjugate('haben');">haben</span> |
+        <span onclick="verbix.conjugate('sehen');">sehen</span> |
+        <span onclick="verbix.conjugate('horen');">horen</span>
+        
+
+    <hr>
+    <div data-verbix-conjugate-noverb-display="none" data-verbix-conjugate-verb-display="block">
+        <h3>Indicative Present</h3>
+        <div data-verbix-conjugate-tense="0"></div>
+        <div data-verbix-conjugate-tense="1" data-verbix-conjugate-noresultfortensetext= "Not conjugated on subjunctive present">
+            <h3>subjunctive Present</h3>
+            <div data-verbix-tense-placeholder="1"></div>
+        </div>
+    </div>
+    <div style="display:none;" data-verbix-conjugate-noverb-display="block" data-verbix-conjugate-verb-display="none">
+     This is not a verb!
+     </div>
+    </div>
+
+

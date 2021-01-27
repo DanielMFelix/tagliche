@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+backgroud-color: white;
+
+* {
+    box-sizing: border-box;  
+}
+
+html {
+    scroll-behavior: smooth;
+}
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #91D8F7;
+    text-decoration: none;  
+    
+}
+
+a {
+    text-decoration: none;
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: aliceblue;
+}
+
+header a button: hover{
+    font-size: 1em;
+    
+}
+
+
+#logo{
+    weight: 30%;
+}
+
+na{
+    width: 100%;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display:inline-block;
+    justify-content: flex-end;
+    padding: 0px 20px;
+
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+   color:white;
+}
+
+body {
+    font-family:"Montserrat", sans-serif;
+    margin:0;
+}
+#ballon {
+    width:80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container-ballon{
+    position: relative;
+}
+
+.text-ballon{
+    margin-left: 20%;
+    position: absolute;
+    top:35%;
+    width:60%;
+    text-align: center;
+    font-size: 40px;
+}
+
+#character {
+    justify-content: left;
+    flex-direction: column-reverse;
+}
+
+#konjugator{
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+}
+
+#content{
+     
+}
+
+#buttons-box{
+    margin-left: 10%;
+    margin-right:10%; 
+}
+
+#days {}
+
+
+
+button, #press{
+    color:white;
+    margin: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: #91D8F7;
+    border: none;
+    border-radius: 20px;
+}
+
+div button:hover{
+    font-size: 1.3em;
+    padding: 8px;
+    transition: all 0.3s ease 0s;
+    
+}
+
+#title{
+    margin-left: 10%;
+}
+
+#assignment a{
+    color: white;
+    box-sizing: border-box ;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 5px;
+    background-color: #3E4095;
+    border-radius: 20px;
+    border: 2px;
+    border-color: #DAF0F7;
+}
+
+#text {
+    margin-top:30px;
+    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#text a {
+    color: #3E4095;
+}
+
+#list {
+    
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#list a {
+    color: #3E4095;
+}
+
+#question {
+    margin-top: 30px;
+}
+#question a{
+    color: #3E4095;
+}
+
+#beispiel {
+    margin-top: 15px;
+}
+
+#answer input{
+    margin-top: 30px;
+    width: 80%;
+    height: 100px;
+    justify-content: center;
+}
+
+.pronoun {colour: green;}
+.irregular {color: red;}
+.orto {color: blur;}
+.arca {color: purple;}
+.obsolete {color: gray;}
+
+
+@media screen and (min-width:700px){
+    #ballon {
+        height: 40vh;
+        width: 80vw;
+
+    }
+}
+
+@media screen and (max-width:700px){
+
+    logo {
+        width: 30%;
+    }
+
+    #character {
+        width: 40%;
+    }
+
+    .container-ballon{
+        position: relative;
+    }
+    
+    .text-ballon{
+        margin-left: 20%;
+        position: absolute;
+        top:25%;
+        width:60%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    button {
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    #assignment {
+        margin-top: 10px;
+    }
+
+    .container {
+        justify-content: center;
+    }
+}
