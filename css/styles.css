@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-backgroud-color: white;
 
 * {
     box-sizing: border-box;  
@@ -8,6 +7,7 @@ backgroud-color: white;
 html {
     scroll-behavior: smooth;
 }
+
 li, a, button{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -31,17 +31,16 @@ header {
     background-color: aliceblue;
 }
 
-header a button: hover{
+header a button:hover {
     font-size: 1em;
-    
 }
 
 
-#logo{
-    weight: 30%;
+#logo {
+    font-weight: 30%;
 }
 
-na{
+nav {
     width: 100%;
 }
 
@@ -71,16 +70,21 @@ body {
 #ballon {
     width:80%;
     margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
 }
 
 .container-ballon{
     position: relative;
+
+    /* Horizontal Centering */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .text-ballon{
-    margin-left: 20%;
+    /* margin-left: 20%; */
     position: absolute;
     top:35%;
     width:60%;
@@ -185,7 +189,7 @@ div button:hover{
     justify-content: center;
 }
 
-.pronoun {colour: green;}
+.pronoun {color: green;}
 .irregular {color: red;}
 .orto {color: blur;}
 .arca {color: purple;}
