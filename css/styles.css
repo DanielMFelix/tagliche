@@ -7,6 +7,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 li, a, button{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -69,16 +70,21 @@ body {
 #ballon {
     width:80%;
     margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
 }
 
 .container-ballon{
     position: relative;
+
+    /* Horizontal Centering */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .text-ballon{
-    margin-left: 20%;
+    /* margin-left: 20%; */
     position: absolute;
     top:35%;
     width:60%;
