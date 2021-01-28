@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-backgroud-color: white;
 
 * {
     box-sizing: border-box;  
@@ -31,17 +30,16 @@ header {
     background-color: aliceblue;
 }
 
-header a button: hover{
+header a button:hover {
     font-size: 1em;
-    
 }
 
 
-#logo{
-    weight: 30%;
+#logo {
+    font-weight: 30%;
 }
 
-na{
+nav {
     width: 100%;
 }
 
@@ -185,7 +183,7 @@ div button:hover{
     justify-content: center;
 }
 
-.pronoun {colour: green;}
+.pronoun {color: green;}
 .irregular {color: red;}
 .orto {color: blur;}
 .arca {color: purple;}
