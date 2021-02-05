@@ -188,11 +188,11 @@ div button:hover{
     margin-top: 15px;
 }
 
-#answer input{
+#answer textarea {
     margin-top: 30px;
-    width: 80%;
-    height: 100px;
-    justify-content: center;
+    width: 80vw;
+    height: 200px;
+    
 }
 
 

@@ -183,7 +183,7 @@ function create_assignment(i,k){
                 console.log("!!!!!!!!!!!!!ANSWER É!!!!!!", answer);
 
              
-                 texto += '<form action="saveAnswer" method="POST"><div id="answer"><input type="text" name="answer" placeholder="Schreiben Sie hier Ihre Antwort"></div>';
+                 texto += '<form action="saveAnswer" method="POST"><div id="answer"><textarea type="text" name="answer" placeholder="Schreiben Sie hier Ihre Antwort"></textarea></div>';
                  texto += '<article name="getId" value='+i+' days='+k+' database-id='+i+'><button type="submit" name="buttonSaver" value=[{"whatDay":"'+k+'","week":'+i+'}]>Schicken</button></article></form>';
 
                 document.querySelector("#content1")
@@ -265,6 +265,10 @@ document.addEventListener("DOMContentLoaded",
         .sendGetRequest("/username",
             function(request){
                 username = request.responseText;
+                if (username=='MEugenia'){
+                    username="Marô";
+                }
+
                 if (username[0] == username[0].toLowerCase()){
                     username = username.replace(/^./,username[0].toUpperCase());
                 }
@@ -285,7 +289,7 @@ function database(i,k,answer){
                 if (answer==null){
                     answer="";
                 }
-                document.getElementsByTagName("input")[0].setAttribute("value",answer);
+                document.getElementsByTagName("textarea")[0].innerHTML=answer;
                 return answer
 
                 }

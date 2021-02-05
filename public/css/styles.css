@@ -201,11 +201,10 @@ div button:hover{
 #content form {
     border: none;
 }
-#answer input{
+textarea{
     margin-top: 30px;
     width: 80%;
     height: 100px;
-    text-align: start;
 }
 
 
